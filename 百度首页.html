@@ -1,0 +1,118 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>百度一下</title>
+<style>
+.nav{  /* 导航栏包裹 */
+    float: right;
+    width: 600px;
+}   
+.nav ul{ /*导航栏列表 */
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    
+}   
+.nav ul a:link,.nav ul a:visited{/* 导航栏链接状态 */
+    color: rgb(77, 77, 77);
+}   
+#more a:link,#more a:visited{/* 导航栏链接状态 */
+    background: rgb(71, 145, 255);
+    color: white; 
+}
+.wrap{/* 内容区包裹 */
+    width: 800px;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    padding-top:30px;
+}
+.search_text{/* 搜索区文本 */
+    width:600px;
+    height: 36px;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid  rgb(71, 145, 255);
+    background:url(百度一下，你就知道_files/camera.png) no-repeat right center #FFF; 
+}
+.search_sub{/* 搜索区按钮 */
+    width: 194px;
+    float: right;
+    margin-top: 30px;
+    height: 40px;
+    background: rgb(71, 145, 255);
+    border: 1px solid  rgb(71, 145, 255);
+    color: white;
+    font-size: 18px;
+}   
+.saoma{/* 二维码 */
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    vertical-align: bottom;
+}
+i{/* 二维码 */
+    height: 100%;
+    display: inline-block;
+}
+.footer li{
+    list-style-type: none;
+    display:inline-block;
+    width: 130px;
+}
+.footer li a:link,.footer li a:visited{
+    color:rgb(77, 77, 77);
+}
+.footer_2{
+    color:rgb(77, 77, 77);
+}
+.footer_2 a:link,.footer_2 a:visited{
+    color: rgb(77, 77, 77);
+}
+</style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">hao123</a></li>
+            <li><a href="#">地图</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">贴吧</a></li>
+            <li><a href="#">学术</a></li>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">设置</a></li>
+            <li id="more"><a href="#">更多产品</a></li>
+        </ul>
+    </div> <!-- 导航栏结束 -->
+<div class="wrap">
+    <div class="logo">
+        <img src="百度一下，你就知道_files/百度LOGO.png">
+    </div><!-- LOGO区结束 -->
+    <div>
+        <form action="a.php"  method="post">
+        <input class="search_text" type="text" name="">
+        <form action="a.php"  method="post">
+        <input class="search_sub" type="submit" name="" value="百度一下">
+    </div><!-- 搜索框结束 -->
+    <div class="saoma">
+            <i></i><img src="百度一下，你就知道_files/saoma.png">
+    </div><!-- 二维码结束 -->
+    <div class="footer">
+        <ul>
+            <li><a href="#">把百度设为首页</a></li>
+            <li><a href="#">关于百度</a></li>
+            <li><a href="#">About Baidu</a></li>
+            <li><a href="#">百度推广</a></li>
+        </ul>
+    <div class="footer_2">
+            <span>@2017&nbsp;Baidu&nbsp;<a href="#">使用百度前必读意见反馈</a>&nbsp;&nbsp;京ICP证030173号</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;京公网安备110001号</span>
+        </div>
+    </div><!-- 底部结束 -->
+</div>
+</body>
+</html>
