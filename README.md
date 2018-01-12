@@ -1,2 +1,0 @@
-# WebCode
-wang_code
